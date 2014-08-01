@@ -1,0 +1,9 @@
+Jinja2
+PyYAML
+ansible
+dnspython
+httplib2
+pip-tools
+passlib
+pyrax
+ssh-import-id
