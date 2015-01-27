@@ -7,3 +7,5 @@ pip-tools
 passlib
 pyrax
 ssh-import-id
+urllib3
+urlparse2

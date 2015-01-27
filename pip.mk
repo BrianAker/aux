@@ -22,6 +22,6 @@ endef
 
 .PHONY: upgrade-pip
 upgrade-pip:
-	$(PIP) freeze | awk -F'==' '{ print $1 }' | xargs $(PIP) install --upgrade
+	$(PIP) freeze | awk -F'==' '{ print $$1 }' | xargs $(PIP) install --upgrade
 
 MAINTAINERCLEAN+= $(PIP_DIR)
